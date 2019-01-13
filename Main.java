@@ -12,12 +12,12 @@ import java.util.Scanner;
 public class Main {
     /*Дополнительное задание вызвать отдельно заданные методы */
     public static void main(String[] args) {
-        task_3();
-        task_4();
-        task_5();
-        task_6();
-        task_7();
-        task_8();
+        calcTask3();
+        calcInclude();
+        defPosNeg();
+        defTrueNegative();
+        greetName();
+        defLeapYear();
 
         /*Задание №2 создать переменные всех пройденных типов данных и инициализировать их значения         */
 
@@ -34,7 +34,7 @@ public class Main {
         /* Задание №3 Написать метод вычисляющий выражение a*(b+(c/d)) и возвращающий
         результат, где a-d входные параметры этого метода */
 
-        static void task_3 () {
+        static void calcTask3 () {
 
             System.out.println("Я посчитаю для тебя a*(b+(c/d))");
             Scanner scanner = new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Main {
 
         */
 
-        static void task_4 () {
+        static void calcInclude () {
 
             System.out.println("Я скажу, лежит ли результат между 10 и 20");
             Scanner scanner = new Scanner(System.in);
@@ -78,7 +78,7 @@ public class Main {
 
           */
 
-        static void task_5 () {
+        static void defPosNeg () {
 
             System.out.println("Я скажу отрицательное или подожительное у тебя число");
             Scanner scanner = new Scanner(System.in);
@@ -95,7 +95,7 @@ public class Main {
             Для разнообразия относительно предыдущей задачи, введем boolean
           */
 
-         static void task_6() {
+         static void defTrueNegative () {
 
              System.out.println("Я скажу тебе, правда ли число отрицательное");
              Scanner scanner = new Scanner(System.in);
@@ -113,7 +113,7 @@ public class Main {
          "Привет + имя"
          */
 
-        static void task_7 () {
+        static void greetName () {
             Scanner sc = new Scanner(System.in);
                 System.out.println("Whats your name? ");
             String task7 = sc.nextLine();
@@ -124,7 +124,7 @@ public class Main {
          *
          * */
 
-        static void task_8 () {
+        static void defLeapYear () {
 
             Scanner sc_task8 = new Scanner(System.in);
             System.out.println("Введите Год : ");
